@@ -18,7 +18,7 @@ For the Product Preview Card Component project, my main objective was to craft a
   
 ### Screenshot
 
-![](./product-preview-card-component-main/images/desktop-design.jpg)
+![](./product-preview-card-component-main/design/desktop-design.jpg)
 
 ### Links
 - Live Site URL: [Click here](https://neel-07.github.io/Product-preview-card-component/)
