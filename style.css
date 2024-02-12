@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    background-color: hsl(30, 38%, 92%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display:flex;
+    height:55%;
+    width:600px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:10px;
+}
+
+img{
+    height:100%;
+    width:300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.leftbox{
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+#tag{
+    font-size:14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color:rgba(121, 125, 125, 0.895);
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+    margin-top: -10px;
+}
+p{
+    color:rgba(121, 125, 125, 0.895);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height:1.6;
+    font-weight: bold;
+}
+.pricebar{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+.price{
+   font-size:30px;
+   font-family: 'Fraunces', serif;
+   color:hsl(158, 36%, 37%);
+}
+
+.off{
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    color:rgba(121, 125, 125, 0.895);
+    font-size: 14px;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    padding:15px 10px;
+    border:none;
+    color: azure;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button img{
+    height:20px;
+    width:20px;
+    border-radius:0;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: hsl(158, 51%, 23%);
+}
+/* font-family: 'Fraunces', serif; */
+/* font-family: 'Montserrat', sans-serif; */
