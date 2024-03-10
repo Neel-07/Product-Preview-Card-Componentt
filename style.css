@@ -14,11 +14,11 @@
 
 .card{
     display:flex;
-    height:55%;
-    width:600px;
+    max-width:600px;
     background-color: hsl(0, 0%, 100%);
     border-radius:10px;
 }
+
 
 img{
     height:100%;
@@ -95,6 +95,48 @@ button img{
 button:hover{
     cursor:pointer;
     background-color: hsl(158, 51%, 23%);
+}
+
+
+
+@media screen and (max-width:630px) {
+    
+    .container{
+        padding:2rem 0rem;
+    }
+    
+    .card{
+        max-width:80%;
+        flex-direction: column;
+        height:100%;
+        overflow:auto;
+    }
+
+    .leftbox{
+       height:60%;
+       padding:30px;
+    }
+    .rightbox {
+        height: 40%;
+    }
+
+    .rightbox img{
+        width:100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #tag{
+        margin-bottom:0px;
+    }
+  
+}
+
+@media screen and (max-width:310px){
+    h1{
+        margin-top:0px;
+    }
 }
 /* font-family: 'Fraunces', serif; */
 /* font-family: 'Montserrat', sans-serif; */
